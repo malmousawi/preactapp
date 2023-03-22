@@ -1,0 +1,33 @@
+.row {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    padding: 30px 0;
+  }
+  
+  .cell {
+    flex: 1;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  
+  .headerCell {
+    flex: 1;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .imageBox {
+    flex: 1;
+    height: 50px;
+    width: 40px;
+    object-fit: cover;
+  }
+  
